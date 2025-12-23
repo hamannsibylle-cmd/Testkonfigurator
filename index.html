@@ -10275,8 +10275,9 @@ window.addEventListener('load', function(){
     // Size buttons to scrollbar width
     var w = sbw + 'px';
     down.style.width = w; up.style.width = w;
+
     // Align over the scrollbar track inside the column
-    var left = Math.round(r.right - sbw); // FIX: folgt der echten Scrollbar (Wix-sicher)
+    var left = 624;  // FIX: vom Nutzer vorgegeben
     var fc = document.getElementById('front-controls');
     var downTop;
     if(fc){
